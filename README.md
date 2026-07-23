@@ -13,8 +13,8 @@ consistente en todo el período), se eligieron dos categorías de análisis:
 
 | Orden | Archivo | Contenido | Responsable |
 |-------|---------|-----------|-------------|
-| **1** | `Lab1_Series_Tiempo.ipynb` | EDA general (compartido) + series **Total** y **Vías** | Persona A |
-| **2** | `Lab1_Series_Paises.ipynb` | Series por **País** (El Salvador, EE. UU., Honduras) | Persona B |
+| **1** | `Lab1_Series_Tiempo.ipynb` | EDA general (compartido) + series **Total** y **Vías** |
+| **2** | `Lab1_Series_Paises.ipynb` | Series por **País** (El Salvador, EE. UU., Honduras) |
 
 > **Empezar por el Notebook 1**: contiene el análisis exploratorio general (calidad de datos,
 > pandemia, quiebres metodológicos) que da contexto al Notebook 2.
