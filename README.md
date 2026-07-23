@@ -11,8 +11,8 @@ consistente en todo el período), se eligieron dos categorías de análisis:
 
 ## Orden de los notebooks
 
-| Orden | Archivo | Contenido | Responsable |
-|-------|---------|-----------|-------------|
+| Orden | Archivo | Contenido | 
+|-------|---------|-----------|
 | **1** | `Lab1_Series_Tiempo.ipynb` | EDA general (compartido) + series **Total** y **Vías** |
 | **2** | `Lab1_Series_Paises.ipynb` | Series por **País** (El Salvador, EE. UU., Honduras) |
 
