@@ -1,0 +1,16 @@
+# Entorno virtual
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Notebooks del catedrático (NO comitear)
+series-de-tiempo.ipynb
+deep-learning-series-tiempo.ipynb
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Salidas / temporales
+*.log
+.DS_Store
