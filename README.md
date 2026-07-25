@@ -9,6 +9,11 @@ consistente en todo el período), se eligieron dos categorías de análisis:
 - **Vías de ingreso** (Aérea, Terrestre, Marítima)
 - **Países de residencia** (top-3 acumulado)
 
+> **Excepción metodológica de la vía Marítima:** el detalle `Turista + Excursionista` se pierde
+> desde 2017. Por ello se usa la serie de **Cruceristas marítimos**, disponible de 2009 a 2022.
+> Sus comparaciones con Aérea y Terrestre son indicativas: comparten la ventana pre-COVID usada
+> para los indicadores, pero no la misma población ni la misma cobertura final.
+
 ## Orden de los notebooks
 
 | Orden | Archivo | Contenido | 
@@ -50,4 +55,6 @@ Luego abrir los notebooks con Jupyter y ejecutarlos de arriba hacia abajo. El ar
 
 Los dos notebooks están guardados con todas sus celdas ejecutadas, incluyendo tablas de métricas,
 pruebas estadísticas y gráficas. El análisis comparativo y las recomendaciones para INGUAT se
-encuentran al final del Notebook 2.
+encuentran al final del Notebook 2. Su Parte IV reúne la verificación explícita de la rúbrica para
+las siete series: sensibilidad ADF/KPSS, justificación de órdenes, diagnóstico de residuos,
+calidad predictiva relativa y recuperación posterior a la pandemia.
