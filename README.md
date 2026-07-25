@@ -23,11 +23,12 @@ consistente en todo el período), se eligieron dos categorías de análisis:
 
 - [x] Análisis exploratorio general (Notebook 1)
 - [x] Series **Total** y **Vía Aérea**: construcción, descomposición, estacionariedad (var. + media)
-- [ ] Series **Terrestre** y **Marítima** (Notebook 1)
-- [ ] Series por **País** (Notebook 2): análisis + estacionariedad
-- [ ] Modelado (ARIMA/SARIMA, Prophet, Holt-Winters, suav. exponencial, seasonal naive) — todas las series
-- [ ] Partición 70/30, predicción y métricas (MAE, RMSE, AIC, BIC) — todas las series
-- [ ] Análisis comparativo (ejercicio 5) e informe PDF
+- [x] Series **Terrestre** y **Marítima** (Notebook 1)
+- [x] Series por **País** (Notebook 2): análisis + estacionariedad
+- [x] Modelado (ARIMA/SARIMA, Prophet, Holt-Winters, suav. exponencial, seasonal naive) — todas las series
+- [x] Partición 70/30, predicción y métricas (MAE, RMSE, AIC, BIC) — todas las series
+- [x] Análisis comparativo con evidencia estadística (ejercicio 5, Notebook 2)
+- [ ] Redacción y exportación del informe final sin código a PDF
 
 ## Nota metodológica: top-3 de países
 
@@ -46,3 +47,7 @@ pip install pmdarima prophet         # para la fase de modelado
 ```
 Luego abrir los notebooks con Jupyter y ejecutarlos de arriba hacia abajo. El archivo de datos
 `Base_Migracion_2009-2026jun.xlsx` debe estar en la raíz del repositorio.
+
+Los dos notebooks están guardados con todas sus celdas ejecutadas, incluyendo tablas de métricas,
+pruebas estadísticas y gráficas. El análisis comparativo y las recomendaciones para INGUAT se
+encuentran al final del Notebook 2.
