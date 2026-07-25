@@ -18,11 +18,33 @@ consistente en todo el período), se eligieron dos categorías de análisis:
 
 | Orden | Archivo | Contenido | 
 |-------|---------|-----------|
-| **1** | `Lab1_Series_Tiempo.ipynb` | EDA general (compartido) + series **Total** y **Vías** |
-| **2** | `Lab1_Series_Paises.ipynb` | Series por **País** (El Salvador, EE. UU., Honduras) |
+| **1** | `notebooks/Lab1_Series_Tiempo.ipynb` | EDA general (compartido) + series **Total** y **Vías** |
+| **2** | `notebooks/Lab1_Series_Paises.ipynb` | Series por **País** (El Salvador, EE. UU., Honduras) |
 
 > **Empezar por el Notebook 1**: contiene el análisis exploratorio general (calidad de datos,
 > pandemia, quiebres metodológicos) que da contexto al Notebook 2.
+
+## Estructura del repositorio
+
+```text
+.
+├── data/
+│   └── raw/
+│       └── Base_Migracion_2009-2026jun.xlsx
+├── notebooks/
+│   ├── Lab1_Series_Tiempo.ipynb
+│   └── Lab1_Series_Paises.ipynb
+├── src/
+│   └── README.md
+├── Laboratorio 1. Series de Tiempo 2026.pdf
+└── README.md
+```
+
+- `data/raw`: datos crudos sin modificar.
+- `notebooks`: análisis, modelos, gráficas y conclusiones ejecutadas.
+- `src`: espacio para scripts auxiliares reutilizables; el procesamiento actual se realiza dentro
+  de los notebooks y no requirió un script de limpieza separado.
+- La raíz conserva el enunciado y la documentación general del ejercicio.
 
 ## Estado de avance
 
@@ -51,7 +73,8 @@ pip install numpy pandas matplotlib seaborn statsmodels scikit-learn openpyxl
 pip install pmdarima prophet         # para la fase de modelado
 ```
 Luego abrir los notebooks con Jupyter y ejecutarlos de arriba hacia abajo. El archivo de datos
-`Base_Migracion_2009-2026jun.xlsx` debe estar en la raíz del repositorio.
+debe conservarse en `data/raw/Base_Migracion_2009-2026jun.xlsx`. Las rutas de los notebooks
+funcionan al ejecutarlos desde la raíz del repositorio o desde la carpeta `notebooks`.
 
 Los dos notebooks están guardados con todas sus celdas ejecutadas, incluyendo tablas de métricas,
 pruebas estadísticas y gráficas. El análisis comparativo y las recomendaciones para INGUAT se
